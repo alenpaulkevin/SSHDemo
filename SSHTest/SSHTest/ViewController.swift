@@ -19,8 +19,15 @@ class ViewController: UIViewController {
         label.text = "手表"
         label.textColor = UIColor.white
         label.backgroundColor = UIColor.black
-        
         self.view.addSubview(label)
+        
+        let watchLabel = UILabel(frame: CGRect(x: 50, y: 250, width: 100, height: 100))
+        watchLabel.text = "心贴"
+        watchLabel.textColor = UIColor.white
+        watchLabel.backgroundColor = UIColor.black
+        self.view.addSubview(watchLabel)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
