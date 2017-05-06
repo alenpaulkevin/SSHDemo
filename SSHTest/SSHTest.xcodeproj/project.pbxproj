@@ -14,6 +14,7 @@
 		6D48DF211EBD6BB400E7FACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D48DF1F1EBD6BB400E7FACE /* LaunchScreen.storyboard */; };
 		6D48DF2C1EBD6BB500E7FACE /* SSHTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D48DF2B1EBD6BB500E7FACE /* SSHTestTests.swift */; };
 		6D48DF371EBD6BB500E7FACE /* SSHTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D48DF361EBD6BB500E7FACE /* SSHTestUITests.swift */; };
+		6DAA51321EBD729B00708BBF /* ViewTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA51311EBD729B00708BBF /* ViewTwoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6D48DF321EBD6BB500E7FACE /* SSHTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D48DF361EBD6BB500E7FACE /* SSHTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHTestUITests.swift; sourceTree = "<group>"; };
 		6D48DF381EBD6BB500E7FACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DAA51311EBD729B00708BBF /* ViewTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				6D48DF161EBD6BB400E7FACE /* AppDelegate.swift */,
 				6D48DF181EBD6BB400E7FACE /* ViewController.swift */,
+				6DAA51311EBD729B00708BBF /* ViewTwoController.swift */,
 				6D48DF1A1EBD6BB400E7FACE /* Main.storyboard */,
 				6D48DF1D1EBD6BB400E7FACE /* Assets.xcassets */,
 				6D48DF1F1EBD6BB400E7FACE /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DAA51321EBD729B00708BBF /* ViewTwoController.swift in Sources */,
 				6D48DF191EBD6BB400E7FACE /* ViewController.swift in Sources */,
 				6D48DF171EBD6BB400E7FACE /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				6D48DF3D1EBD6BB500E7FACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D48DF3E1EBD6BB500E7FACE /* Build configuration list for PBXNativeTarget "SSHTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				6D48DF401EBD6BB500E7FACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D48DF411EBD6BB500E7FACE /* Build configuration list for PBXNativeTarget "SSHTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				6D48DF431EBD6BB500E7FACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
