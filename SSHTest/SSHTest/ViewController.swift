@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.view.addSubview(label)
         
         let watchLabel = UILabel(frame: CGRect(x: 50, y: 250, width: 100, height: 100))
-        watchLabel.text = "心贴"
+        watchLabel.text = "手表"
         watchLabel.textColor = UIColor.white
         watchLabel.backgroundColor = UIColor.black
         self.view.addSubview(watchLabel)
