@@ -27,7 +27,6 @@ class ViewController: UIViewController {
         watchLabel.backgroundColor = UIColor.black
         self.view.addSubview(watchLabel)
         
-        
     }
 
     override func didReceiveMemoryWarning() {
